@@ -169,7 +169,7 @@ section {
   background: var(--main-color);
   border-radius: 10px;
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   font-weight: 600;
   transition: all 0.45s ease;
@@ -605,8 +605,12 @@ form textarea {
     grid-template-columns: 1fr;
   }
   .end {
-    padding: 2% 10%;
+    padding: 0.70% 10%;
   }
+  .btn {
+  padding: 12px 25px;
+  font-size: 0.8rem;
+}
   .end p {
     color: var(--second-color);
     font-size: 12px;
