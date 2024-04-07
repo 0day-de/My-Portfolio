@@ -617,9 +617,13 @@ form textarea {
     font-size: 12px;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
   .btn {
   padding: 12px 20px;
   font-size: 10px;
 }
+  .navlist {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+  }
 }
