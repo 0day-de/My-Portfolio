@@ -617,9 +617,9 @@ form textarea {
     font-size: 12px;
   }
 }
-@media (max-width: 520px){
+@media (max-width: 400px){
   .btn {
-  padding: 12px 25px;
-  font-size: 0.6rem;
+  padding: 12px 20px;
+  font-size: 10px;
 }
 }
